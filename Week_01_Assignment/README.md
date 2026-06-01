@@ -1,4 +1,3 @@
-
 # E-Commerce Dataset — Data Exploration & Cleaning
 
 A Python-based data exploration and preprocessing assignment using Pandas on an e-commerce dataset. The assignment includes data cleaning, missing value handling, filtering, duplicate detection, and feature engineering. Completed as a Week 1 assignment to strengthen foundational skills in Python, data analysis, and preprocessing workflows.
