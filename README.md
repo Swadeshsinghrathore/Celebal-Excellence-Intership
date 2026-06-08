@@ -1,3 +1,4 @@
+
 # Week 1 — Python Basics & Data Exploration with Pandas
 
 ## What We Learned
