@@ -1,5 +1,5 @@
-SELECT * FROM superstore2.superstore_raw;
- -- I changed the column names because some of the original names contained SQL reserved keywords such as ORDER and DATE. To avoid conflicts and query execution errors, we renamed the columns with appropriate and meaningful names.ALTER TABLE superstore2.superstore_raw
+ -- I changed the column names because some of the original names contained SQL reserved keywords such as ORDER and DATE.
+ -- To avoid conflicts and query execution errors, we renamed the columns with appropriate and meaningful names.ALTER TABLE superstore2.superstore_raw
 ALTER TABLE superstore2.superstore_raw
 RENAME COLUMN `Row ID` TO row_id,
 RENAME COLUMN `Order ID` TO order_id,
@@ -68,7 +68,7 @@ GROUP BY product_id;
 -- Creating the Orders table with foreign key constraints to establish relationships between the tables and maintain referential integrity.
 CREATE TABLE superstore2.orders (
     order_id    VARCHAR(20) NOT NULL,
-    row_id      INT primary key,
+    row_id      INT PRIMARY KEY,
     order_date  VARCHAR(255),
     ship_date   VARCHAR(255),
     ship_mode   VARCHAR(255),
@@ -89,7 +89,10 @@ CREATE TABLE superstore2.orders (
 );
 
 -- Inserting the data into order table using SELECT DISTINCT 
-INSERT INTO superstore2.orders (order_id, row_id, order_date, ship_date, ship_mode, customer_id, product_id, sales, quantity, discount, profit)
+INSERT INTO superstore2.orders (order_id, row_id, order_date, 
+                ship_date, ship_mode, customer_id, 
+                product_id, sales, quantity, discount, 
+                profit)
 SELECT DISTINCT
     order_id,
     row_id,
@@ -106,7 +109,8 @@ FROM superstore2.superstore_raw;
 
 
 -- 1. Find all orders where sales are greater than the average sales. (Subquery)  
--- first i find the avrage selas of all products in order table than use this as a subquery and find all 
+-- First, find the average sales of all orders in the table, then use this as a subquery to find all orders 
+-- with sales above average.
 
 SELECT * FROM superstore2.orders
 where sales > (SELECT AVG(sales) FROM superstore2.orders);
@@ -114,8 +118,7 @@ where sales > (SELECT AVG(sales) FROM superstore2.orders);
 -- 2. Find the highest sales order for each customer. (Subquery) 
 -- This query groups all records by product_id and selects one value for product_name, category, and sub_category using MAX().
 -- It then inserts one unique row per product into the products table, avoiding duplicate primary key errors.
-SELECT
-    customer_id,
+SELECT customer_id,
     order_id,
     product_id,
     sales
@@ -204,14 +207,12 @@ WHERE sales_rank <= 3;
 -- The query joins with the customers table to get customer names and uses RANK() to rank customers based on total sales.
 
 WITH customer_sales AS (
-    SELECT 
-        customer_id,
+    SELECT customer_id,
         SUM(sales) AS total_sales
     FROM superstore2.orders
     GROUP BY customer_id
 )
-SELECT 
-    c.customer_name,
+SELECT c.customer_name,
     cs.total_sales,
     RANK() OVER (ORDER BY cs.total_sales DESC) AS sales_rank
 FROM customer_sales cs
@@ -226,8 +227,7 @@ JOIN superstore2.customers c
 
 SELECT customer_id, total_sales, sales_rank
 FROM (
-    SELECT 
-        customer_id,
+    SELECT customer_id,
         SUM(sales) AS total_sales,
         RANK() OVER (ORDER BY SUM(sales) DESC) AS sales_rank
     FROM superstore2.orders
@@ -240,8 +240,7 @@ WHERE sales_rank <= 5;
 
 SELECT customer_id, total_sales, bottom_sales_rank
 FROM (
-    SELECT 
-        customer_id,
+    SELECT customer_id,
         SUM(sales) AS total_sales,
         RANK() OVER (ORDER BY SUM(sales) ASC) AS bottom_sales_rank
     FROM superstore2.orders
@@ -262,15 +261,17 @@ HAVING COUNT(o.order_id) = 1;
 
 
 -- 4. Which customers have above-average sales? 
+
 SELECT DISTINCT c.customer_name
 FROM superstore2.orders o
 JOIN superstore2.customers c 
 ON o.customer_id = c.customer_id
 WHERE o.sales > (SELECT AVG(sales) FROM superstore2.orders);
 
+
 -- 5. What is the highest order value per customer? 
-SELECT 
-    c.customer_name,
+
+SELECT c.customer_name,
     o.customer_id,
     MAX(o.sales) AS highest_order_value
 FROM superstore2.orders o
