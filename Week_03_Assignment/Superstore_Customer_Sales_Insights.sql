@@ -1,5 +1,5 @@
- -- I changed the column names because some of the original names contained SQL reserved keywords such as ORDER and DATE.
- -- To avoid conflicts and query execution errors, we renamed the columns with appropriate and meaningful names.ALTER TABLE superstore2.superstore_raw
+SELECT * FROM superstore2.superstore_raw;
+ -- I changed the column names because some of the original names contained SQL reserved keywords such as ORDER and DATE. To avoid conflicts and query execution errors, we renamed the columns with appropriate and meaningful names.ALTER TABLE superstore2.superstore_raw
 ALTER TABLE superstore2.superstore_raw
 RENAME COLUMN `Row ID` TO row_id,
 RENAME COLUMN `Order ID` TO order_id,
