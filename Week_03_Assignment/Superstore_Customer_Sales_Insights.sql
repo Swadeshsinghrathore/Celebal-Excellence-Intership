@@ -1,5 +1,5 @@
-SELECT * FROM superstore2.superstore_raw;
- -- I changed the column names because some of the original names contained SQL reserved keywords such as ORDER and DATE. To avoid conflicts and query execution errors, we renamed the columns with appropriate and meaningful names.ALTER TABLE superstore2.superstore_raw
+ -- I changed the column names because some of the original names contained SQL reserved keywords such as ORDER and DATE. 
+ -- To avoid conflicts and query execution errors, we renamed the columns with appropriate and meaningful names.ALTER TABLE superstore2.superstore_raw
 ALTER TABLE superstore2.superstore_raw
 RENAME COLUMN `Row ID` TO row_id,
 RENAME COLUMN `Order ID` TO order_id,
@@ -109,8 +109,7 @@ FROM superstore2.superstore_raw;
 
 
 -- 1. Find all orders where sales are greater than the average sales. (Subquery)  
--- First, find the average sales of all orders in the table, then use this as a subquery to find all orders 
--- with sales above average.
+-- First, find the average sales of all orders in the table, then use this as a subquery to find all orders with sales above average.
 
 SELECT * FROM superstore2.orders
 where sales > (SELECT AVG(sales) FROM superstore2.orders);
