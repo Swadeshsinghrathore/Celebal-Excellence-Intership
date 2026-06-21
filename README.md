@@ -1,3 +1,37 @@
+# Week 04 - Azure Cloud Fundamentals & ADF Pipeline
+
+## What I Learned
+
+### 1. Azure Basics
+- Understood Azure hierarchy — **Subscription → Resource Group → Resources**
+- Created a **Resource Group** (`resource-group-celebal`) to organize all project resources
+- Learned difference between **IaaS, PaaS, SaaS** — ADF and Blob Storage are PaaS services (no infrastructure management needed)
+
+### 2. Azure Storage
+- Created a **Storage Account** (`celebal`) and two **Blob Containers** — `superstore-dataset` (source) and `destination-superstore-dataset` (destination)
+- Learned why source and destination are kept separate to preserve raw data and allow safe reprocessing
+
+### 3. Azure Data Factory — Core Components
+- Created a **Linked Service** (`linked_service_superstore`) to connect ADF to Blob Storage acts as a reusable connection definition
+- Created 3 **Datasets** `mata_data_source` (for scanning container), `source_dataset` (for reading files), `Destination_dataset` (for writing output)
+- Explored ADF UI — **Author** (build), **Monitor** (track runs), **Manage** (connections and triggers)
+
+### 4. Pipeline Development
+- Used **Get Metadata** activity to dynamically scan the source container and retrieve a list of all files (`childItems`)
+- Used **ForEach** to iterate over every file — makes the pipeline dynamic without hardcoding filenames
+- Used **If Condition** (`@startsWith(item().name, 'superstore')`) to filter files only superstore files are copied, others are skipped
+- Used **Copy Data** activity to move matching files from source to destination container
+- Created a **Schedule Trigger** (`Trigger_for_copy`) to automate pipeline execution
+
+### 5. IAM & Access Control
+- Assigned **Reader**, **Owner**, and **Role Based Access Control Administrator(Contributor)** roles on the Resource Group
+- Learned **RBAC (Role-Based Access Control)** and the **Principle of Least Privilege** give only the minimum permissions required for a task
+
+### 6. DE Concepts Covered
+- **ETL vs ELT** — transform before load vs transform after load; ELT preferred in modern cloud pipelines
+- **Batch vs Streaming** — batch for scheduled jobs, streaming for real-time events
+- **Incremental Loading** — load only new/changed data using a watermark instead of full reload every time
+
 # Week 03 - SQL Advanced Concepts
 
 ## What I Learned
