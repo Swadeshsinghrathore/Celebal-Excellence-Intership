@@ -1,4 +1,31 @@
-# 📘 Week 2 - Basic SQL Assignment
+# Week 03 - SQL Advanced Concepts
+
+## What I Learned
+
+### 1. Subqueries
+- Used a **scalar subquery** to compare each row against an aggregate (e.g., find orders above average sales)
+- Used a **correlated subquery** to find the highest sales order per customer — it runs once per outer row, referencing the current customer
+
+### 2. CTEs (Common Table Expressions)
+- Wrote `WITH customer_sales AS (...)` to pre-compute total sales per customer
+- Reused the same CTE inside a subquery to find customers above the average of their group
+- CTEs make complex queries more readable and avoid repeating logic
+
+### 3. Window Functions
+- `RANK() OVER (ORDER BY total_sales DESC)` — ranks customers by sales, with gaps for ties
+- `ROW_NUMBER() OVER (PARTITION BY customer_id ORDER BY order_date)` — assigns sequential order numbers per customer; resets for each new customer
+- Window functions don't collapse rows like `GROUP BY` — every row keeps its data plus gets a computed value
+
+### 4. Schema Normalization
+- Split the flat `superstore_raw` CSV into 3 related tables: `customers`, `products`, `orders`
+- Used `FOREIGN KEY` constraints to maintain referential integrity between tables
+- Used `SELECT DISTINCT` and `MAX() GROUP BY` for clean data insertion without duplicates
+
+### 5. Combining Techniques
+- Final query combined **JOIN + CTE + Window Function** in one — fetching customer names, total sales, and rank together
+- Mini project applied all concepts to answer real business questions (top/bottom customers, single-order customers, above-average buyers)
+
+# Week 2 - Basic SQL Assignment
 
 This week I worked on two SQL  **ShopEase** (a structured schema-based assignment) and **Superstore** (a real-world CSV dataset analysis). Together, they covered everything from basic querying to transactions and business insights.
 
