@@ -1,0 +1,501 @@
+product_id,product_name,category,subcategory,cost_price
+1,Headphones,Electronics,Headphones,1251
+2,Laptop,Electronics,Laptop,612
+3,Headphones,Electronics,Headphones,3756
+4,Mouse,Electronics,Mouse,1768
+5,Keyboard,Electronics,Keyboard,2329
+6,Mobile,Electronics,Mobile,3217
+7,Headphones,Electronics,Headphones,157
+8,Keyboard,Electronics,Keyboard,295
+9,Laptop,Electronics,Laptop,4577
+10,Laptop,Electronics,Laptop,747
+11,Keyboard,Electronics,Keyboard,2207
+12,Keyboard,Electronics,Keyboard,4128
+13,Mouse,Electronics,Mouse,3511
+14,Laptop,Electronics,Laptop,1245
+15,Keyboard,Electronics,Keyboard,1937
+16,Laptop,Electronics,Laptop,2942
+17,Keyboard,Electronics,Keyboard,3661
+18,Keyboard,Electronics,Keyboard,3152
+19,Keyboard,Electronics,Keyboard,2611
+20,Headphones,Electronics,Headphones,3410
+21,Laptop,Electronics,Laptop,4396
+22,Keyboard,Electronics,Keyboard,3605
+23,Keyboard,Electronics,Keyboard,1068
+24,Mobile,Electronics,Mobile,2536
+25,Headphones,Electronics,Headphones,260
+26,Laptop,Electronics,Laptop,3113
+27,Keyboard,Electronics,Keyboard,4779
+28,Headphones,Electronics,Headphones,4905
+29,Mouse,Electronics,Mouse,4300
+30,Laptop,Electronics,Laptop,1495
+31,Keyboard,Electronics,Keyboard,1719
+32,Mobile,Electronics,Mobile,622
+33,Mouse,Electronics,Mouse,601
+34,Keyboard,Electronics,Keyboard,3972
+35,Headphones,Electronics,Headphones,3721
+36,Mobile,Electronics,Mobile,3197
+37,Headphones,Electronics,Headphones,4795
+38,Laptop,Electronics,Laptop,4922
+39,Mouse,Electronics,Mouse,1846
+40,Headphones,Electronics,Headphones,3811
+41,Keyboard,Electronics,Keyboard,1087
+42,Mobile,Electronics,Mobile,1937
+43,Headphones,Electronics,Headphones,672
+44,Laptop,Electronics,Laptop,4356
+45,Laptop,Electronics,Laptop,2591
+46,Headphones,Electronics,Headphones,4948
+47,Mouse,Electronics,Mouse,3799
+48,Mouse,Electronics,Mouse,395
+49,Keyboard,Electronics,Keyboard,771
+50,Mobile,Electronics,Mobile,640
+51,Mouse,Electronics,Mouse,4164
+52,Laptop,Electronics,Laptop,3283
+53,Mobile,Electronics,Mobile,827
+54,Laptop,Electronics,Laptop,1321
+55,Mouse,Electronics,Mouse,4416
+56,Keyboard,Electronics,Keyboard,3403
+57,Keyboard,Electronics,Keyboard,3014
+58,Headphones,Electronics,Headphones,867
+59,Laptop,Electronics,Laptop,2558
+60,Laptop,Electronics,Laptop,365
+61,Mobile,Electronics,Mobile,3421
+62,Laptop,Electronics,Laptop,1984
+63,Headphones,Electronics,Headphones,2281
+64,Laptop,Electronics,Laptop,1223
+65,Mouse,Electronics,Mouse,2565
+66,Laptop,Electronics,Laptop,4595
+67,Headphones,Electronics,Headphones,2997
+68,Laptop,Electronics,Laptop,3616
+69,Mobile,Electronics,Mobile,384
+70,Headphones,Electronics,Headphones,1185
+71,Mobile,Electronics,Mobile,1075
+72,Mouse,Electronics,Mouse,4225
+73,Mobile,Electronics,Mobile,197
+74,Mobile,Electronics,Mobile,3724
+75,Headphones,Electronics,Headphones,639
+76,Laptop,Electronics,Laptop,3793
+77,Mouse,Electronics,Mouse,1499
+78,Keyboard,Electronics,Keyboard,2931
+79,Headphones,Electronics,Headphones,4216
+80,Laptop,Electronics,Laptop,2525
+81,Laptop,Electronics,Laptop,3135
+82,Laptop,Electronics,Laptop,1120
+83,Laptop,Electronics,Laptop,2262
+84,Laptop,Electronics,Laptop,1402
+85,Mobile,Electronics,Mobile,443
+86,Keyboard,Electronics,Keyboard,1053
+87,Laptop,Electronics,Laptop,210
+88,Laptop,Electronics,Laptop,1880
+89,Laptop,Electronics,Laptop,4352
+90,Mobile,Electronics,Mobile,3977
+91,Mouse,Electronics,Mouse,1210
+92,Laptop,Electronics,Laptop,3821
+93,Keyboard,Electronics,Keyboard,316
+94,Mouse,Electronics,Mouse,4040
+95,Keyboard,Electronics,Keyboard,4539
+96,Keyboard,Electronics,Keyboard,1703
+97,Mouse,Electronics,Mouse,507
+98,Mouse,Electronics,Mouse,4783
+99,Laptop,Electronics,Laptop,4117
+100,Headphones,Electronics,Headphones,2944
+101,Keyboard,Electronics,Keyboard,4094
+102,Mouse,Electronics,Mouse,3956
+103,Mouse,Electronics,Mouse,1305
+104,Mobile,Electronics,Mobile,908
+105,Headphones,Electronics,Headphones,2887
+106,Mouse,Electronics,Mouse,1822
+107,Mobile,Electronics,Mobile,4884
+108,Mobile,Electronics,Mobile,2746
+109,Mouse,Electronics,Mouse,1881
+110,Keyboard,Electronics,Keyboard,4598
+111,Laptop,Electronics,Laptop,3047
+112,Mobile,Electronics,Mobile,823
+113,Mobile,Electronics,Mobile,4010
+114,Mobile,Electronics,Mobile,1109
+115,Mobile,Electronics,Mobile,749
+116,Headphones,Electronics,Headphones,4266
+117,Mobile,Electronics,Mobile,4579
+118,Keyboard,Electronics,Keyboard,1480
+119,Mouse,Electronics,Mouse,1807
+120,Laptop,Electronics,Laptop,4712
+121,Headphones,Electronics,Headphones,4265
+122,Keyboard,Electronics,Keyboard,296
+123,Headphones,Electronics,Headphones,4161
+124,Headphones,Electronics,Headphones,2409
+125,Mouse,Electronics,Mouse,4104
+126,Jeans,Clothing,Jeans,3441
+127,Jeans,Clothing,Jeans,4853
+128,T-Shirt,Clothing,T-Shirt,1142
+129,Jacket,Clothing,Jacket,4120
+130,Jeans,Clothing,Jeans,3550
+131,T-Shirt,Clothing,T-Shirt,1549
+132,Shoes,Clothing,Shoes,3754
+133,Jeans,Clothing,Jeans,3073
+134,T-Shirt,Clothing,T-Shirt,1391
+135,Shirt,Clothing,Shirt,2119
+136,Shirt,Clothing,Shirt,4035
+137,Shirt,Clothing,Shirt,2550
+138,Jacket,Clothing,Jacket,4398
+139,Shoes,Clothing,Shoes,4093
+140,Jacket,Clothing,Jacket,2676
+141,Jeans,Clothing,Jeans,611
+142,Jeans,Clothing,Jeans,2562
+143,T-Shirt,Clothing,T-Shirt,4552
+144,Jeans,Clothing,Jeans,4345
+145,Jeans,Clothing,Jeans,1892
+146,Jeans,Clothing,Jeans,2442
+147,Shirt,Clothing,Shirt,1003
+148,Shirt,Clothing,Shirt,3997
+149,Jacket,Clothing,Jacket,3886
+150,Shoes,Clothing,Shoes,843
+151,Shoes,Clothing,Shoes,821
+152,Jeans,Clothing,Jeans,4287
+153,Shirt,Clothing,Shirt,1566
+154,Shoes,Clothing,Shoes,1111
+155,Shirt,Clothing,Shirt,324
+156,Shirt,Clothing,Shirt,3969
+157,T-Shirt,Clothing,T-Shirt,1688
+158,T-Shirt,Clothing,T-Shirt,2520
+159,T-Shirt,Clothing,T-Shirt,2444
+160,Shoes,Clothing,Shoes,4976
+161,T-Shirt,Clothing,T-Shirt,4609
+162,Jacket,Clothing,Jacket,4712
+163,Shoes,Clothing,Shoes,739
+164,Jacket,Clothing,Jacket,2146
+165,Jacket,Clothing,Jacket,154
+166,Shoes,Clothing,Shoes,209
+167,Shirt,Clothing,Shirt,1257
+168,Shirt,Clothing,Shirt,3332
+169,Jacket,Clothing,Jacket,3056
+170,Shoes,Clothing,Shoes,1617
+171,T-Shirt,Clothing,T-Shirt,1995
+172,Jeans,Clothing,Jeans,697
+173,Shirt,Clothing,Shirt,2954
+174,Jeans,Clothing,Jeans,3676
+175,Jeans,Clothing,Jeans,603
+176,Shirt,Clothing,Shirt,3192
+177,Shoes,Clothing,Shoes,4453
+178,Jacket,Clothing,Jacket,3712
+179,Jeans,Clothing,Jeans,4638
+180,Shoes,Clothing,Shoes,3424
+181,Shirt,Clothing,Shirt,3655
+182,Jacket,Clothing,Jacket,3578
+183,T-Shirt,Clothing,T-Shirt,125
+184,Shirt,Clothing,Shirt,671
+185,T-Shirt,Clothing,T-Shirt,2106
+186,Shirt,Clothing,Shirt,2874
+187,T-Shirt,Clothing,T-Shirt,186
+188,Jeans,Clothing,Jeans,153
+189,Shoes,Clothing,Shoes,685
+190,Jeans,Clothing,Jeans,2075
+191,Jacket,Clothing,Jacket,423
+192,Shoes,Clothing,Shoes,333
+193,T-Shirt,Clothing,T-Shirt,2535
+194,Jeans,Clothing,Jeans,3841
+195,Jeans,Clothing,Jeans,4421
+196,Jacket,Clothing,Jacket,1853
+197,T-Shirt,Clothing,T-Shirt,4493
+198,T-Shirt,Clothing,T-Shirt,4542
+199,Jacket,Clothing,Jacket,2713
+200,Jeans,Clothing,Jeans,3541
+201,Jacket,Clothing,Jacket,3873
+202,T-Shirt,Clothing,T-Shirt,1098
+203,T-Shirt,Clothing,T-Shirt,4297
+204,Shirt,Clothing,Shirt,1958
+205,Jeans,Clothing,Jeans,4190
+206,T-Shirt,Clothing,T-Shirt,4718
+207,Shirt,Clothing,Shirt,2169
+208,Jeans,Clothing,Jeans,810
+209,Jacket,Clothing,Jacket,2780
+210,T-Shirt,Clothing,T-Shirt,3716
+211,T-Shirt,Clothing,T-Shirt,2682
+212,Jacket,Clothing,Jacket,4133
+213,Shoes,Clothing,Shoes,1368
+214,Shirt,Clothing,Shirt,4939
+215,Jeans,Clothing,Jeans,4499
+216,Shoes,Clothing,Shoes,591
+217,Jacket,Clothing,Jacket,294
+218,Jacket,Clothing,Jacket,3485
+219,T-Shirt,Clothing,T-Shirt,4259
+220,Shoes,Clothing,Shoes,4984
+221,Shoes,Clothing,Shoes,730
+222,Shoes,Clothing,Shoes,640
+223,T-Shirt,Clothing,T-Shirt,675
+224,Shirt,Clothing,Shirt,4779
+225,Shirt,Clothing,Shirt,4842
+226,Shirt,Clothing,Shirt,2676
+227,T-Shirt,Clothing,T-Shirt,2900
+228,Shirt,Clothing,Shirt,2602
+229,Jacket,Clothing,Jacket,2945
+230,Shoes,Clothing,Shoes,3850
+231,Shirt,Clothing,Shirt,2375
+232,T-Shirt,Clothing,T-Shirt,4458
+233,Shirt,Clothing,Shirt,2650
+234,Shirt,Clothing,Shirt,4088
+235,Shirt,Clothing,Shirt,3995
+236,Jeans,Clothing,Jeans,1252
+237,Jacket,Clothing,Jacket,4033
+238,Jacket,Clothing,Jacket,4467
+239,T-Shirt,Clothing,T-Shirt,1421
+240,Jacket,Clothing,Jacket,3777
+241,Shoes,Clothing,Shoes,349
+242,T-Shirt,Clothing,T-Shirt,1642
+243,Jeans,Clothing,Jeans,2935
+244,Jeans,Clothing,Jeans,1271
+245,T-Shirt,Clothing,T-Shirt,4811
+246,Jacket,Clothing,Jacket,4224
+247,Jeans,Clothing,Jeans,584
+248,T-Shirt,Clothing,T-Shirt,3638
+249,T-Shirt,Clothing,T-Shirt,440
+250,Jacket,Clothing,Jacket,3197
+251,Table,Home,Table,1152
+252,Fan,Home,Fan,1224
+253,Lamp,Home,Lamp,2673
+254,Lamp,Home,Lamp,1954
+255,Table,Home,Table,4157
+256,Lamp,Home,Lamp,3910
+257,Fan,Home,Fan,826
+258,Table,Home,Table,2676
+259,Fan,Home,Fan,1740
+260,Sofa,Home,Sofa,4411
+261,Table,Home,Table,3606
+262,Fan,Home,Fan,2633
+263,Fan,Home,Fan,3104
+264,Lamp,Home,Lamp,2621
+265,Table,Home,Table,3028
+266,Fan,Home,Fan,2342
+267,Table,Home,Table,1240
+268,Fan,Home,Fan,113
+269,Lamp,Home,Lamp,4680
+270,Lamp,Home,Lamp,2555
+271,Sofa,Home,Sofa,288
+272,Chair,Home,Chair,4109
+273,Chair,Home,Chair,2996
+274,Sofa,Home,Sofa,1901
+275,Chair,Home,Chair,2046
+276,Lamp,Home,Lamp,3085
+277,Sofa,Home,Sofa,2395
+278,Chair,Home,Chair,2188
+279,Sofa,Home,Sofa,4441
+280,Lamp,Home,Lamp,412
+281,Table,Home,Table,1429
+282,Sofa,Home,Sofa,4447
+283,Lamp,Home,Lamp,4416
+284,Sofa,Home,Sofa,2393
+285,Sofa,Home,Sofa,4552
+286,Table,Home,Table,2428
+287,Lamp,Home,Lamp,4567
+288,Fan,Home,Fan,2770
+289,Table,Home,Table,3168
+290,Chair,Home,Chair,1694
+291,Lamp,Home,Lamp,2571
+292,Table,Home,Table,3255
+293,Lamp,Home,Lamp,3009
+294,Sofa,Home,Sofa,110
+295,Sofa,Home,Sofa,3834
+296,Table,Home,Table,2932
+297,Sofa,Home,Sofa,4718
+298,Table,Home,Table,872
+299,Chair,Home,Chair,4828
+300,Sofa,Home,Sofa,280
+301,Chair,Home,Chair,3156
+302,Table,Home,Table,647
+303,Table,Home,Table,4901
+304,Sofa,Home,Sofa,303
+305,Lamp,Home,Lamp,2901
+306,Sofa,Home,Sofa,4991
+307,Chair,Home,Chair,4752
+308,Fan,Home,Fan,3727
+309,Table,Home,Table,3356
+310,Fan,Home,Fan,1221
+311,Lamp,Home,Lamp,105
+312,Chair,Home,Chair,3908
+313,Fan,Home,Fan,620
+314,Lamp,Home,Lamp,712
+315,Chair,Home,Chair,3791
+316,Table,Home,Table,3069
+317,Chair,Home,Chair,3220
+318,Lamp,Home,Lamp,1203
+319,Table,Home,Table,1315
+320,Table,Home,Table,416
+321,Lamp,Home,Lamp,4673
+322,Lamp,Home,Lamp,4127
+323,Table,Home,Table,1687
+324,Table,Home,Table,2299
+325,Sofa,Home,Sofa,2582
+326,Table,Home,Table,4369
+327,Table,Home,Table,2394
+328,Lamp,Home,Lamp,2398
+329,Fan,Home,Fan,2344
+330,Lamp,Home,Lamp,1462
+331,Table,Home,Table,2561
+332,Table,Home,Table,2114
+333,Lamp,Home,Lamp,2410
+334,Chair,Home,Chair,2698
+335,Sofa,Home,Sofa,2091
+336,Fan,Home,Fan,1878
+337,Lamp,Home,Lamp,1715
+338,Lamp,Home,Lamp,2269
+339,Lamp,Home,Lamp,361
+340,Lamp,Home,Lamp,3615
+341,Lamp,Home,Lamp,2992
+342,Chair,Home,Chair,4721
+343,Table,Home,Table,643
+344,Fan,Home,Fan,4853
+345,Sofa,Home,Sofa,3311
+346,Lamp,Home,Lamp,4345
+347,Lamp,Home,Lamp,1663
+348,Lamp,Home,Lamp,2472
+349,Lamp,Home,Lamp,4175
+350,Sofa,Home,Sofa,160
+351,Table,Home,Table,1622
+352,Sofa,Home,Sofa,1641
+353,Chair,Home,Chair,4029
+354,Chair,Home,Chair,2051
+355,Table,Home,Table,1616
+356,Fan,Home,Fan,991
+357,Lamp,Home,Lamp,4001
+358,Chair,Home,Chair,602
+359,Lamp,Home,Lamp,1816
+360,Chair,Home,Chair,2076
+361,Fan,Home,Fan,2939
+362,Lamp,Home,Lamp,473
+363,Lamp,Home,Lamp,1297
+364,Lamp,Home,Lamp,1180
+365,Lamp,Home,Lamp,4735
+366,Fan,Home,Fan,2563
+367,Fan,Home,Fan,657
+368,Table,Home,Table,3713
+369,Fan,Home,Fan,629
+370,Chair,Home,Chair,3831
+371,Chair,Home,Chair,2035
+372,Sofa,Home,Sofa,3842
+373,Chair,Home,Chair,3402
+374,Fan,Home,Fan,3272
+375,Sofa,Home,Sofa,3785
+376,Ai Book,Books,AI Book,2181
+377,Sql Book,Books,SQL Book,2713
+378,Python Book,Books,Python Book,3678
+379,Ml Book,Books,ML Book,3592
+380,Ml Book,Books,ML Book,1650
+381,Math Book,Books,Math Book,2622
+382,Ai Book,Books,AI Book,232
+383,Math Book,Books,Math Book,728
+384,Sql Book,Books,SQL Book,2904
+385,Math Book,Books,Math Book,4674
+386,Ai Book,Books,AI Book,4158
+387,Ai Book,Books,AI Book,3029
+388,Math Book,Books,Math Book,915
+389,Python Book,Books,Python Book,3414
+390,Ml Book,Books,ML Book,865
+391,Math Book,Books,Math Book,1299
+392,Python Book,Books,Python Book,2231
+393,Ai Book,Books,AI Book,817
+394,Sql Book,Books,SQL Book,1884
+395,Ai Book,Books,AI Book,3992
+396,Sql Book,Books,SQL Book,2362
+397,Python Book,Books,Python Book,3587
+398,Ml Book,Books,ML Book,2133
+399,Python Book,Books,Python Book,3407
+400,Math Book,Books,Math Book,1369
+401,Ai Book,Books,AI Book,502
+402,Ai Book,Books,AI Book,915
+403,Math Book,Books,Math Book,2268
+404,Ai Book,Books,AI Book,3275
+405,Math Book,Books,Math Book,3267
+406,Ml Book,Books,ML Book,2269
+407,Sql Book,Books,SQL Book,2341
+408,Math Book,Books,Math Book,2590
+409,Math Book,Books,Math Book,2705
+410,Math Book,Books,Math Book,3300
+411,Python Book,Books,Python Book,2443
+412,Ml Book,Books,ML Book,1995
+413,Math Book,Books,Math Book,3958
+414,Ml Book,Books,ML Book,3965
+415,Math Book,Books,Math Book,1588
+416,Math Book,Books,Math Book,3722
+417,Ml Book,Books,ML Book,4424
+418,Python Book,Books,Python Book,4931
+419,Sql Book,Books,SQL Book,4149
+420,Python Book,Books,Python Book,1193
+421,Math Book,Books,Math Book,3096
+422,Ml Book,Books,ML Book,2953
+423,Math Book,Books,Math Book,4231
+424,Math Book,Books,Math Book,4520
+425,Ml Book,Books,ML Book,2608
+426,Ml Book,Books,ML Book,3592
+427,Ml Book,Books,ML Book,452
+428,Ai Book,Books,AI Book,2636
+429,Sql Book,Books,SQL Book,1038
+430,Math Book,Books,Math Book,4120
+431,Ml Book,Books,ML Book,168
+432,Ml Book,Books,ML Book,2282
+433,Ml Book,Books,ML Book,3291
+434,Sql Book,Books,SQL Book,4439
+435,Ai Book,Books,AI Book,1652
+436,Math Book,Books,Math Book,783
+437,Sql Book,Books,SQL Book,2602
+438,Math Book,Books,Math Book,4037
+439,Ml Book,Books,ML Book,233
+440,Ai Book,Books,AI Book,3051
+441,Math Book,Books,Math Book,4003
+442,Math Book,Books,Math Book,3621
+443,Ai Book,Books,AI Book,2289
+444,Python Book,Books,Python Book,1005
+445,Ai Book,Books,AI Book,2237
+446,Python Book,Books,Python Book,1461
+447,Python Book,Books,Python Book,1389
+448,Sql Book,Books,SQL Book,1340
+449,Math Book,Books,Math Book,223
+450,Math Book,Books,Math Book,4272
+451,Math Book,Books,Math Book,3320
+452,Ml Book,Books,ML Book,347
+453,Ml Book,Books,ML Book,3371
+454,Sql Book,Books,SQL Book,1053
+455,Ml Book,Books,ML Book,2751
+456,Ml Book,Books,ML Book,681
+457,Python Book,Books,Python Book,1069
+458,Math Book,Books,Math Book,3870
+459,Math Book,Books,Math Book,1565
+460,Sql Book,Books,SQL Book,1353
+461,Math Book,Books,Math Book,3600
+462,Python Book,Books,Python Book,1690
+463,Ai Book,Books,AI Book,2060
+464,Python Book,Books,Python Book,2848
+465,Ai Book,Books,AI Book,684
+466,Ai Book,Books,AI Book,1073
+467,Python Book,Books,Python Book,1425
+468,Ai Book,Books,AI Book,4130
+469,Python Book,Books,Python Book,2207
+470,Ai Book,Books,AI Book,524
+471,Python Book,Books,Python Book,4997
+472,Ai Book,Books,AI Book,3233
+473,Sql Book,Books,SQL Book,3102
+474,Ai Book,Books,AI Book,2015
+475,Ml Book,Books,ML Book,4065
+476,Math Book,Books,Math Book,2901
+477,Ai Book,Books,AI Book,515
+478,Ml Book,Books,ML Book,2830
+479,Math Book,Books,Math Book,1973
+480,Python Book,Books,Python Book,4127
+481,Ml Book,Books,ML Book,1850
+482,Ai Book,Books,AI Book,2142
+483,Ai Book,Books,AI Book,2051
+484,Python Book,Books,Python Book,509
+485,Python Book,Books,Python Book,2391
+486,Sql Book,Books,SQL Book,1176
+487,Sql Book,Books,SQL Book,886
+488,Python Book,Books,Python Book,4013
+489,Ml Book,Books,ML Book,4094
+490,Sql Book,Books,SQL Book,994
+491,Python Book,Books,Python Book,3101
+492,Python Book,Books,Python Book,212
+493,Sql Book,Books,SQL Book,2874
+494,Sql Book,Books,SQL Book,546
+495,Sql Book,Books,SQL Book,4175
+496,Sql Book,Books,SQL Book,1960
+497,Python Book,Books,Python Book,313
+498,Math Book,Books,Math Book,411
+499,Python Book,Books,Python Book,4276
+500,Sql Book,Books,SQL Book,3469
