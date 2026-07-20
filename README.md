@@ -1,3 +1,36 @@
+# Week 05 - Apache Spark
+
+## What I Learned:
+
+### 1. Spark Architecture Basics
+- How Spark uses a DAG (Directed Acyclic Graph) to plan execution
+- Difference between **narrow transformations** (e.g., `filter` — no shuffle) and **wide transformations** (e.g., `groupBy` — triggers shuffle across nodes)
+- Why the **Shuffle** is the most expensive operation in a Spark job
+
+### 2. DataFrame Operations
+- Loading CSV data with `inferSchema=True` and understanding its risks with messy formats
+- Using `printSchema()`, `show()`, `count()` for quick data inspection
+- DataFrames are **immutable** — every transformation returns a new one; always reassign
+
+### 3. Data Cleaning
+- Removing duplicates with `dropDuplicates()` on specific columns
+- Handling nulls using `.na.drop()` (remove rows) vs `.na.fill()` (replace with default)
+- Filtering on multiple conditions using `&` and `|` operators with `col()`
+- Why nulls must be handled **before** aggregations to avoid silent, skewed results
+
+### 4. Aggregations
+- `groupBy()` + `.agg()` to compute multiple statistics (min, max, mean, sum) in one pass
+- Filtering aggregated results with a second `.filter()` (like SQL `HAVING`)
+
+### 5. Type Casting
+- Casting a string column to `TimestampType` using `.withColumn()` + `.cast()`
+- Renaming columns with `.withColumnRenamed()`
+
+### 6. Building Pipelines
+- Chaining multiple transformations into a clean, readable pipeline:  
+  `dropDuplicates()` → `na.fill()` → `groupBy()` → `agg()`
+
+
 # Week 04 - Azure Cloud Fundamentals & ADF Pipeline
 
 ## What I Learned

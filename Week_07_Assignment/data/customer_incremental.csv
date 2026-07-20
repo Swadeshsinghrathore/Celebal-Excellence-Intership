@@ -1,0 +1,71 @@
+Customer_ID,Customer_Name,Segment,City,State,Region
+AA-10315,Alex Avila,Corporate,Minneapolis,Minnesota,Central
+AA-10375,Allen Armold,Corporate,Mesa,Arizona,West
+AA-10480,Andrew Allen,Corporate,Concord,North Carolina,South
+AA-10645,Anna Andreadi,Corporate,Chester,Pennsylvania,East
+AB-10015,Aaron Bergman,Corporate,Seattle,Washington,West
+AB-10060,Adam Bellavance,Corporate,New York City,New York,East
+AB-10105,Adrian Barton,Corporate,Phoenix,Arizona,West
+AB-10150,Aimee Bixby,Corporate,Long Beach,New York,East
+AB-10165,Alan Barnes,Corporate,Los Angeles,California,West
+AB-10255,Alejandro Ballentine,Corporate,Lorain,Ohio,East
+AB-10600,Ann Blume,Corporate,Tucson,Arizona,West
+AC-10420,Alyssa Crouse,Corporate,San Francisco,California,West
+AC-10450,Amy Cox,Corporate,Minneapolis,Minnesota,Central
+AC-10615,Ann Chong,Corporate,New York City,New York,East
+AC-10660,Anna Chung,Corporate,Huntsville,Texas,Central
+AD-10180,Alan Dominguez,Corporate,Houston,Texas,Central
+AF-10870,Art Ferguson,Corporate,College Station,Texas,Central
+AF-10885,Art Foster,Corporate,Louisville,Kentucky,South
+AG-10270,Alejandro Grove,Corporate,West Jordan,Utah,West
+AG-10300,Aleksandra Gannaway,Corporate,Los Angeles,California,West
+AG-10330,Alex Grayson,Corporate,Stockton,California,West
+AG-10390,Allen Goldenen,Corporate,Cincinnati,Ohio,East
+AG-10495,Andrew Gjertsen,Corporate,Philadelphia,Pennsylvania,East
+AG-10525,Andy Gerbode,Corporate,Saint Petersburg,Florida,South
+AG-10675,Anna Gayman,Corporate,Houston,Texas,Central
+AG-10765,Anthony Garverick,Corporate,Philadelphia,Pennsylvania,East
+AG-10900,Arthur Gainer,Corporate,Tucson,Arizona,West
+AH-10030,Aaron Hawkins,Corporate,Philadelphia,Pennsylvania,East
+AH-10075,Adam Hart,Corporate,New York City,New York,East
+AH-10120,Adrian Hane,Corporate,Tucson,Arizona,West
+AH-10195,Alan Haines,Corporate,Tamarac,Florida,South
+AH-10210,Alan Hwang,Corporate,Brentwood,California,West
+AH-10465,Amy Hunt,Corporate,New York City,New York,East
+AH-10585,Angele Hood,Corporate,Chicago,Illinois,Central
+AH-10690,Anna H�berlin,Corporate,New York City,New York,East
+AI-10855,Arianne Irving,Corporate,Philadelphia,Pennsylvania,East
+AJ-10780,Anthony Jacobs,Corporate,Springfield,Virginia,South
+AJ-10795,Anthony Johnson,Corporate,Saint Petersburg,Florida,South
+AJ-10945,Ashley Jarboe,Corporate,Wilmington,North Carolina,South
+AJ-10960,Astrea Jones,Corporate,Rochester,New York,East
+AM-10360,Alice McCarthy,Corporate,Grand Prairie,Texas,Central
+AM-10705,Anne McFarland,Corporate,Auburn,Alabama,South
+AO-10810,Anthony O'Donnell,Corporate,Los Angeles,California,West
+AP-10720,Anne Pryor,Corporate,New York City,New York,East
+AP-10915,Arthur Prichep,Corporate,Palm Coast,Florida,South
+AR-10345,Alex Russell,Corporate,Lawrence,Massachusetts,East
+AR-10405,Allen Rosenblatt,Corporate,Franklin,Massachusetts,East
+AR-10510,Andrew Roberts,Corporate,Philadelphia,Pennsylvania,East
+AR-10540,Andy Reiter,Corporate,New York City,New York,East
+AR-10570,Anemone Ratner,Corporate,Columbus,Georgia,South
+NEW-1,New Customer 1,Consumer,Jaipur,Rajasthan,West
+NEW-2,New Customer 2,Consumer,Jaipur,Rajasthan,West
+NEW-3,New Customer 3,Consumer,Jaipur,Rajasthan,West
+NEW-4,New Customer 4,Consumer,Jaipur,Rajasthan,West
+NEW-5,New Customer 5,Consumer,Jaipur,Rajasthan,West
+NEW-6,New Customer 6,Consumer,Jaipur,Rajasthan,West
+NEW-7,New Customer 7,Consumer,Jaipur,Rajasthan,West
+NEW-8,New Customer 8,Consumer,Jaipur,Rajasthan,West
+NEW-9,New Customer 9,Consumer,Jaipur,Rajasthan,West
+NEW-10,New Customer 10,Consumer,Jaipur,Rajasthan,West
+NEW-11,New Customer 11,Consumer,Jaipur,Rajasthan,West
+NEW-12,New Customer 12,Consumer,Jaipur,Rajasthan,West
+NEW-13,New Customer 13,Consumer,Jaipur,Rajasthan,West
+NEW-14,New Customer 14,Consumer,Jaipur,Rajasthan,West
+NEW-15,New Customer 15,Consumer,Jaipur,Rajasthan,West
+NEW-16,New Customer 16,Consumer,Jaipur,Rajasthan,West
+NEW-17,New Customer 17,Consumer,Jaipur,Rajasthan,West
+NEW-18,New Customer 18,Consumer,Jaipur,Rajasthan,West
+NEW-19,New Customer 19,Consumer,Jaipur,Rajasthan,West
+NEW-20,New Customer 20,Consumer,Jaipur,Rajasthan,West
